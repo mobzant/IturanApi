@@ -37,14 +37,14 @@ namespace IturanAPI.Controllers
 
         #region EndPoints
 
-        [HttpPost]
-        [Route("Test")]
-        public async Task<ObjectResult> Test(List<ReposoNocturno> dataExample)
-        {
-            var hola = Request;
+        //[HttpPost]
+        //[Route("Test")]
+        //public async Task<ObjectResult> Test(List<ReposoNocturno> dataExample)
+        //{
+        //    var hola = Request;
 
-            return StatusCode((int)HttpStatusCode.OK, dataExample);
-        }
+        //    return StatusCode((int)HttpStatusCode.OK, dataExample);
+        //}
 
 
         [HttpPost]
